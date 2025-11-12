@@ -1,12 +1,12 @@
 MPLINK 4.49, Linker
-Linker Map File - Created Wed Oct 29 19:43:45 2025
+Linker Map File - Created Wed Nov 12 17:51:48 2025
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
                 ---------  ---------  ---------  ---------  ---------
                    .org_0       code   0x000000    program   0x000000
                    .org_1       code   0x000000    program   0x000002
-                   .org_2       code   0x000005    program   0x000068
+                   .org_2       code   0x000005    program   0x000078
      .config_2007_E1 P1.O       code   0x002007    program   0x000002
      .config_2008_E1 P1.O       code   0x002008    program   0x000002
 
@@ -16,48 +16,48 @@ Linker Map File - Created Wed Oct 29 19:43:45 2025
                                Start         End      
                            ---------   ---------      
                             0x000000    0x000000      
-                            0x000005    0x000038      
+                            0x000005    0x000040      
                             0x002007    0x002008      
-            55 out of 8455 program addresses used, program memory utilization is 0%
+            63 out of 8455 program addresses used, program memory utilization is 0%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-               ApagarTodo   0x00000f    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                E3Apagado   0x000013    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-              E3Encendido   0x000014    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                   Inicio   0x000005    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                  InterE3   0x000010    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE4   0x000020    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE5   0x00001d    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE6   0x00001a    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE7   0x000017    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                NoActivos   0x000023    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE4Activo   0x000034    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE5Activo   0x00002f    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE6Activo   0x00002a    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE7Activo   0x000025    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
+               ApagarTodo   0x000013    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                E3Apagado   0x00001b    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+              E3Encendido   0x00001c    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                   Inicio   0x000005    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                  InterE3   0x000018    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE4   0x000028    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE5   0x000025    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE6   0x000022    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE7   0x00001f    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                NoActivos   0x00002b    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE4Activo   0x00003c    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE5Activo   0x000037    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE6Activo   0x000032    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE7Activo   0x00002d    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
 
 
 
                               Symbols - Sorted by Address
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                   Inicio   0x000005    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-               ApagarTodo   0x00000f    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                  InterE3   0x000010    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                E3Apagado   0x000013    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-              E3Encendido   0x000014    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE7   0x000017    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE6   0x00001a    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE5   0x00001d    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-          MirarPulsadorE4   0x000020    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-                NoActivos   0x000023    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE7Activo   0x000025    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE6Activo   0x00002a    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE5Activo   0x00002f    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
-         PulsadorE4Activo   0x000034    program     static C:\Users\Oriol\Downloads\Grupo-3-Eric-Oriol-Ej1-P1\E1 P1.asm
+                   Inicio   0x000005    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+               ApagarTodo   0x000013    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                  InterE3   0x000018    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                E3Apagado   0x00001b    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+              E3Encendido   0x00001c    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE7   0x00001f    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE6   0x000022    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE5   0x000025    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+          MirarPulsadorE4   0x000028    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+                NoActivos   0x00002b    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE7Activo   0x00002d    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE6Activo   0x000032    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE5Activo   0x000037    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
+         PulsadorE4Activo   0x00003c    program     static C:\Users\Oriol\OneDrive - EU Gimbernat\Documentos\assembly\E1 P1.asm
 
 
